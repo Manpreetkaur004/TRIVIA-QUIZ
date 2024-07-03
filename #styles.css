@@ -1,0 +1,39 @@
+body {
+    padding-top: 56px; /* Adjust for fixed navbar height */
+  }
+  
+  .home-section {
+    height: 100vh;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(25, 1, 1, 0.5);
+    padding: 1rem;
+  }
+  
+  .about-section,
+  .quiz-section,
+  .feedback-section,
+  .contact-section {
+    background-color:dimgrey
+    padding: 3rem 0;
+  }
+  
+  .footer {
+    position: relative;
+    background-color:aliceblue
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .quiz-section .card {
+    margin-bottom: 1rem;
+    background-color:aliceblue
+  }
+  
+  #resultModal .modal-body {
+    text-align: center;
+  }
+  
+  
+  
